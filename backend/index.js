@@ -6,9 +6,8 @@ const cors = require('cors');
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Hello from chor-police');
+  res.send('Hello from ');
 });
-
 const port = process.env.PORT || 6000;
 
 app.listen(port, () => {
